@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151983;
+    height: 100px;
+}
+
+.mainl h1{
+    font-size: 3rem;
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    height: 5vh;
+    background-color: #151983;
+    display: flex;
+    color: white;
+    font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer a{
+    color: white;
+}
+
+.appt{
+    display: flex;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 60%;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    width: 100%;
+  }
+  
+  
+thead{
+    background-color: rgb(228 240 245);
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+}
+ 
+button{
+    height: 40px;
+    width: 90px;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    background-color: rgb(191, 190, 190);
+}
+
+@media(max-width:450px){
+    .mainl h1{
+        font-size: 2.2rem;
+        color: white;
+    }
+    .mainl{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #151983;
+        height: 100px;
+        width: 100%;
+    }
+    .appt{
+        display: flex;
+        background-color: antiquewhite;
+        width: 100%;
+        height: 60%;
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+    }
+    
+    
+    table {
+        border-collapse: collapse;
+        border: 2px solid rgb(140 140 140);
+        font-family: sans-serif;
+        font-size: 0.5rem;
+        letter-spacing: 1px;
+        width: 100%;
+    }
+      button{
+        height: 20px;
+        width: 35px;
+        border-radius: 0.5rem;
+        font-size: 0.5rem;
+    } 
+}

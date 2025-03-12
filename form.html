@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Form</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="main">
+        <div class="part1"></div>
+        <div class="part2">
+            <h1>Appointment Booking Form</h1><br>
+            <form action="/action" class="form">
+                <div class="sub1">
+                    <label for="name">
+                        Patient's name <br>
+                        <input type="text" placeholder="Enter your name" id="name">
+                    </label>
+                    <label for="age">
+                        Age <br>
+                        <input type="text" placeholder="Enter your Age" id="age">
+                    </label>    
+                </div>
+                <div class="sub2">
+                    <label for="gender">
+                        Gender <br>
+                        <select name="gender" id="gender">
+                            <option value="select">Select your gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </label>
+                    <label for="mobile">
+                        Mobile.no <br>
+                        <input type="text" placeholder="Enter your mobile.no" id="mobile">
+                    </label>
+                </div>
+                <div class="sub3">
+                    <label for="start">
+                        Preferred Date <br>
+                        <input
+                        type="date"
+                        id="start"
+                        name="trip-start"
+                        value="2025-03-11"
+                        min="2025-03-11"
+                        max="2025-04-22" />
+                    </label>
+                    <label for="appointment">
+                        Preferred Time <br>
+                        <input
+                        type="time"
+                        id="appointment"
+                        name="appointment"
+                        min="09:00"
+                        max="18:00"
+                        required />
+                    </label>
+                </div>
+                <button type="submit" id="sb">Submit</button>    
+            </form>
+        </div>
+    </div>
+    <script src="app2.js"></script>
+</body>
+</html>

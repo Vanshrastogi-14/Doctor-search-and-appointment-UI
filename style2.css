@@ -1,0 +1,377 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.part1{
+    height: 100vh;
+    width: 40%;
+    background-image: url(61803.jpg);
+    background-size: contain;
+}
+.part2{
+    height: 100vh;
+    width: 60%;
+}
+
+.main{
+    display: flex;
+}
+
+.part2 h1{
+    text-align: center;
+    margin-top: 4.5rem;
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+.sub2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+.sub3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+#name{
+    width: 300px;
+    height: 40px;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: ghostwhite;
+}
+
+#age{
+    width: 300px;
+    height: 40px;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: ghostwhite;
+}
+
+#gender{
+    width: 300px;
+    height: 40px;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: ghostwhite;
+}
+
+#mobile{
+    width: 300px;
+    height: 40px;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: ghostwhite;
+}
+
+#start{
+    width: 300px;
+    height: 40px;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: ghostwhite;
+}
+
+#appointment{
+    width: 300px;
+    height: 40px;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: ghostwhite;
+}
+
+#sb{
+    height: 40px;
+    width: 90px;
+    border-radius: 0.5rem;
+    margin-top: 4rem;
+    font-size: 1.2rem;
+}
+
+#sb:hover{
+    background-color: rgb(191, 190, 190);
+}
+
+@media(max-width:450px){
+    .part1{
+        display: none;
+    }
+    .part2{
+        height: 100vh;
+        width: 100%;
+    }
+    .part2 h1{
+        text-align: center;
+        margin-top: 4rem;
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+    }
+    .sub1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 1.5rem;
+        font-size: 1.3rem;
+        flex-wrap: wrap;
+    }
+    .sub2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 0rem;
+        font-size: 1.3rem;
+        flex-wrap: wrap;
+    }
+    .sub3{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 0rem;
+        font-size: 1.3rem;
+        flex-wrap: wrap;
+    }
+    #gender{
+        width: 311px;
+        height: 42px;
+        border-radius: 0.5rem;
+        border: 2px solid black;
+        padding-left: 0.5rem;
+        margin-top: 0.5rem;
+        background-color: ghostwhite;
+        margin-bottom: 1rem;
+    }
+    #name{
+        width: 300px;
+        height: 40px;
+        border-radius: 0.5rem;
+        border: 2px solid black;
+        padding-left: 0.5rem;
+        margin-top: 0.5rem;
+        background-color: ghostwhite;
+        margin-bottom: 1rem;
+    }
+    
+    #age{
+        width: 300px;
+        height: 40px;
+        border-radius: 0.5rem;
+        border: 2px solid black;
+        padding-left: 0.5rem;
+        margin-top: 0.5rem;
+        background-color: ghostwhite;
+        margin-bottom: 1rem;
+    }
+    
+    #mobile{
+        width: 300px;
+        height: 40px;
+        border-radius: 0.5rem;
+        border: 2px solid black;
+        padding-left: 0.5rem;
+        margin-top: 0.5rem;
+        background-color: ghostwhite;
+        margin-bottom: 1rem;
+    }
+    
+    #start{
+        width: 300px;
+        height: 40px;
+        border-radius: 0.5rem;
+        border: 2px solid black;
+        padding-left: 0.5rem;
+        margin-top: 0.5rem;
+        background-color: ghostwhite;
+        margin-bottom: 1rem;
+    }
+    
+    #appointment{
+        width: 300px;
+        height: 40px;
+        border-radius: 0.5rem;
+        border: 2px solid black;
+        padding-left: 0.5rem;
+        margin-top: 0.5rem;
+        background-color: ghostwhite;
+        margin-bottom: 1rem;
+    }
+    body{
+        background-color: aliceblue;
+    }
+    #sb{
+        height: 40px;
+        width: 90px;
+        border-radius: 0.5rem;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media(min-width:750px) and (max-width:1050px){
+    .part1{
+        height: 100vh;
+        width: 30%;
+        background-image: url(61803.jpg);
+        background-size: contain;
+    }
+    .part2 h1{
+        text-align: center;
+        margin-top: 4rem;
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+    }
+    .part2{
+        height: 100vh;
+        width: 70%;
+    }
+    .sub1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 1.5rem;
+        font-size: 1.3rem;
+        flex-wrap: wrap;
+    }
+    .sub2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 0rem;
+        font-size: 1.3rem;
+        flex-wrap: wrap;
+    }
+    .sub3{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 0rem;
+        font-size: 1.3rem;
+        flex-wrap: wrap;
+    }
+    #gender{
+        width: 311px;
+        height: 42px;
+        border-radius: 0.5rem;
+        border: 2px solid black;
+        padding-left: 0.5rem;
+        margin-top: 0.5rem;
+        background-color: ghostwhite;
+        margin-bottom: 3rem;
+    }
+    #name{
+        width: 300px;
+        height: 40px;
+        border-radius: 0.5rem;
+        border: 2px solid black;
+        padding-left: 0.5rem;
+        margin-top: 0.5rem;
+        background-color: ghostwhite;
+        margin-bottom: 3rem;
+    }
+    
+    #age{
+        width: 300px;
+        height: 40px;
+        border-radius: 0.5rem;
+        border: 2px solid black;
+        padding-left: 0.5rem;
+        margin-top: 0.5rem;
+        background-color: ghostwhite;
+        margin-bottom: 3rem;
+    }
+    
+    #mobile{
+        width: 300px;
+        height: 40px;
+        border-radius: 0.5rem;
+        border: 2px solid black;
+        padding-left: 0.5rem;
+        margin-top: 0.5rem;
+        background-color: ghostwhite;
+        margin-bottom: 3rem;
+    }
+    
+    #start{
+        width: 300px;
+        height: 40px;
+        border-radius: 0.5rem;
+        border: 2px solid black;
+        padding-left: 0.5rem;
+        margin-top: 0.5rem;
+        background-color: ghostwhite;
+        margin-bottom: 3rem;
+    }
+    
+    #appointment{
+        width: 300px;
+        height: 40px;
+        border-radius: 0.5rem;
+        border: 2px solid black;
+        padding-left: 0.5rem;
+        margin-top: 0.5rem;
+        background-color: ghostwhite;
+        margin-bottom: 3rem;
+    }
+    body{
+        background-color: aliceblue;
+    }
+    #sb{
+        height: 40px;
+        width: 90px;
+        border-radius: 0.5rem;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+}
