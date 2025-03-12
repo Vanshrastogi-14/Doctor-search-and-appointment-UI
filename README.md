@@ -1,2 +1,2 @@
 # Doctor-search-and-appointment-UI
-Html,CSS and JS based project 
+i have completed the task that is given to me. Please Consider. 
